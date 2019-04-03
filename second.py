@@ -3,12 +3,7 @@ import sys
 
 import requests
 
-def test():
-    for i in range(99999999):
-        pass
-
 if len(sys.argv) < 2:
-    test()
     print('No folder selected.\nUse command line argument: python second.py <DIR_PATH>')
     sys.exit(0)
 
